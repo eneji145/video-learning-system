@@ -66,3 +66,41 @@ This project was developed as part of MSc research investigating how AI-enhanced
 
 ### Backend Setup
 1. Clone the repository
+2. Create and activate a virtual environment
+3. Install dependencies
+4. Create a .env file with your API keys
+5. Start the Flask server
+
+### Frontend Setup
+1. Navigate to the frontend directory
+2. Install dependencies
+3. Start the development server
+4. Access the application at http://localhost:3000
+
+## Usage
+
+### Adding Videos
+1. From the home page, click "Add New Video"
+2. Enter a title and video URL (YouTube links or local file paths)
+3. Submit the form to add the video to the library
+
+### Learning from Videos
+1. Select a video from the home page
+2. Choose question type and quantity preferences
+3. Start the quiz to begin the interactive learning experience
+4. Answer questions as they appear
+5. Use the "Review in Video" feature to revisit content related to questions
+6. Pause the video at any time to ask clarification questions
+
+## Contributors
+
+- Ali Patrick Eneji - MSc Researcher, University of Dundee
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Research supervised by Dr. Michael Crabb, University of Dundee
+- Built upon research in educational technology, AI-enhanced learning, and video-based education

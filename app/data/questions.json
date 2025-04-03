@@ -1,0 +1,1349 @@
+[
+  {
+    "question_text": "Which characteristic is most critical for differentiating time series databases from traditional relational databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Time-stamped data storage and retrieval"
+      },
+      {
+        "id": "B",
+        "text": "Use of SQL for data manipulation"
+      },
+      {
+        "id": "C",
+        "text": "Support for complex joins and relationships"
+      },
+      {
+        "id": "D",
+        "text": "Enhanced security features"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Time series databases are specifically designed to efficiently store, retrieve, and analyze time-stamped data, which is crucial for applications that deal with data points indexed in time order. This differentiates them from traditional relational databases that are optimized for general-purpose data management.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_0.16_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 0.16,
+    "timestamp_end": 12.799
+  },
+  {
+    "question_text": "When querying the 'metrics' endpoint of an API, which of the following principles is most important to consider in terms of data interpretation and resource management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The metrics returned should be interpreted in relation to the overall performance context of the system."
+      },
+      {
+        "id": "B",
+        "text": "The metrics will always reflect the current state of the system without any delay."
+      },
+      {
+        "id": "C",
+        "text": "The metrics are only relevant when they show a decrease in resource usage."
+      },
+      {
+        "id": "D",
+        "text": "The metrics can be ignored as long as the API is functioning correctly."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because interpreting metrics in relation to the overall performance context is crucial for understanding the health and efficiency of the system. Metrics alone do not provide complete insights without considering other factors such as workload, historical data, and system architecture.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_117.92_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 117.92,
+    "timestamp_end": 130.16
+  },
+  {
+    "question_text": "In the context of CPU performance monitoring with Prometheus, what does the term 'spike' refer to?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A rapid increase in CPU usage followed by a stabilization at a high level."
+      },
+      {
+        "id": "B",
+        "text": "A sudden drop in CPU usage, indicating improved performance."
+      },
+      {
+        "id": "C",
+        "text": "A consistent pattern of CPU usage over time."
+      },
+      {
+        "id": "D",
+        "text": "A gradual increase in CPU usage due to running background processes."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because a 'spike' in CPU performance indicates a sudden and rapid increase in usage, which is often followed by a return to a stable state, representing periods of high activity that Prometheus would monitor.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_234.0_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 234.0,
+    "timestamp_end": 243.76
+  },
+  {
+    "question_text": "In the context of a Cartesian graph plotting time against revenue (GMV), which of the following statements best describes the relationship between time and revenue growth?",
+    "options": [
+      {
+        "id": "A",
+        "text": "As time progresses, revenue can exhibit exponential growth due to compounding factors."
+      },
+      {
+        "id": "B",
+        "text": "Revenue will always decrease over time regardless of external factors."
+      },
+      {
+        "id": "C",
+        "text": "Revenue remains constant over time in a linear fashion."
+      },
+      {
+        "id": "D",
+        "text": "Time has no effect on revenue growth in a business context."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because it acknowledges that, under certain conditions, revenue can grow exponentially over time due to factors such as market expansion, customer acquisition, and reinvestment strategies. This reflects a deeper understanding of business dynamics and the potential for growth, rather than assuming revenue is static or declining.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_351.199_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 351.199,
+    "timestamp_end": 365.75899999999996
+  },
+  {
+    "question_text": "In the context of monitoring CPU usage, what is the primary benefit of using a real-time data influx system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows for immediate adjustments to system performance based on current data."
+      },
+      {
+        "id": "B",
+        "text": "It reduces the need for historical data analysis."
+      },
+      {
+        "id": "C",
+        "text": "It ensures that all data is stored permanently for future reference."
+      },
+      {
+        "id": "D",
+        "text": "It automatically upgrades hardware components when usage changes."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because a real-time data influx system enables immediate responsiveness to changes in CPU usage, allowing for proactive management of system performance rather than relying on historical data or delayed responses.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_468.8_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 468.8,
+    "timestamp_end": 483.28
+  },
+  {
+    "question_text": "In the context of sales strategy, if a salesperson is at a threshold of 17 sales but has already secured 10, what is the significance of achieving two more sales despite the risk of losing a sale?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It emphasizes the importance of maintaining a buffer in sales performance."
+      },
+      {
+        "id": "B",
+        "text": "It indicates that sales targets should only be pursued without considering past performance."
+      },
+      {
+        "id": "C",
+        "text": "It suggests that the salesperson should not worry about losses since they can always start over."
+      },
+      {
+        "id": "D",
+        "text": "It means that once the threshold is reached, the previous sales do not matter."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because it highlights the strategic importance of maintaining a buffer (the 10 sales) which allows the salesperson to take calculated risks (aiming for 17) without jeopardizing their overall performance.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_590.8_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 590.8,
+    "timestamp_end": 604.64
+  },
+  {
+    "question_text": "What is the primary challenge that Prometheus faces when scraping metrics from a job that has intermittent start and end states?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prometheus may miss important metrics if it scrapes during a job's active state."
+      },
+      {
+        "id": "B",
+        "text": "Prometheus can only scrape jobs that are running continuously."
+      },
+      {
+        "id": "C",
+        "text": "Prometheus requires all jobs to be explicitly defined in its configuration."
+      },
+      {
+        "id": "D",
+        "text": "Prometheus cannot scrape jobs that are processing files."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because if Prometheus scrapes the job while it is actively processing, it may not capture all relevant metrics if the job starts and ends frequently. This highlights the challenge of ensuring comprehensive metric collection during transient states.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_711.12_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 711.12,
+    "timestamp_end": 725.279
+  },
+  {
+    "question_text": "In the context of tracking orders using Prometheus and SQL data warehouses like Snowflake, which of the following best describes the primary advantage of using a time-series database like Prometheus for monitoring system metrics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows for real-time data collection and querying, which is essential for tracking changes over time."
+      },
+      {
+        "id": "B",
+        "text": "It provides a more user-friendly interface for managing large datasets compared to SQL."
+      },
+      {
+        "id": "C",
+        "text": "It can store unstructured data more efficiently than traditional SQL databases."
+      },
+      {
+        "id": "D",
+        "text": "It automatically optimizes query performance without any user intervention."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "A is correct because Prometheus is designed specifically for real-time monitoring of time-series data, making it ideal for tracking metrics like orders, which often change over time. This capability is crucial for timely insights and responsive decision-making.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_834.0_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 834.0,
+    "timestamp_end": 845.6800000000001
+  },
+  {
+    "question_text": "What is a key differentiator of Prometheus compared to InfluxDB in terms of service discovery?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prometheus can automatically discover services and pull metrics from them."
+      },
+      {
+        "id": "B",
+        "text": "InfluxDB has built-in support for multiple data formats."
+      },
+      {
+        "id": "C",
+        "text": "Prometheus does not support open-source licensing."
+      },
+      {
+        "id": "D",
+        "text": "InfluxDB features a more user-friendly interface."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "A is correct because Prometheus emphasizes its ability to automatically discover services and pull metrics, which is a core feature that distinguishes it from InfluxDB.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_948.639_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 948.639,
+    "timestamp_end": 959.8389999999999
+  },
+  {
+    "question_text": "How does the use of QL languages such as PromQL or SQL enhance the efficiency of querying metrics in monitoring systems like Prometheus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They allow users to utilize existing SQL knowledge, thereby reducing the learning curve for engineers."
+      },
+      {
+        "id": "B",
+        "text": "They provide a graphical interface that simplifies the querying process."
+      },
+      {
+        "id": "C",
+        "text": "They automatically optimize queries for better performance without user intervention."
+      },
+      {
+        "id": "D",
+        "text": "They only support basic arithmetic operations for data analysis."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because using familiar QL languages like SQL allows engineers to leverage their existing knowledge, making it easier to write and understand queries for metrics in Prometheus, thus enhancing efficiency.",
+    "question_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd_1072.0_0",
+    "video_id": "69eea540-b2ed-47aa-b690-3d0ef0a0c3fd",
+    "timestamp_start": 1072.0,
+    "timestamp_end": 1085.8400000000001
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_0.0_0",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 0.0,
+    "timestamp_end": 20.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_30.0_1",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 30.0,
+    "timestamp_end": 50.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_60.0_2",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 60.0,
+    "timestamp_end": 80.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_90.0_3",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 90.0,
+    "timestamp_end": 110.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_120.0_4",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 120.0,
+    "timestamp_end": 140.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_150.0_5",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 150.0,
+    "timestamp_end": 170.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_180.0_6",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 180.0,
+    "timestamp_end": 200.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_210.0_7",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 210.0,
+    "timestamp_end": 230.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_240.0_8",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 240.0,
+    "timestamp_end": 260.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32_270.0_9",
+    "video_id": "82979cfd-9282-4a6f-88cd-a1d253d1bb32",
+    "timestamp_start": 270.0,
+    "timestamp_end": 290.0,
+    "question_text": "What is the main focus of this section about new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Basic principles of new"
+      },
+      {
+        "id": "B",
+        "text": "Advanced implementation of new"
+      },
+      {
+        "id": "C",
+        "text": "Historical context of new"
+      },
+      {
+        "id": "D",
+        "text": "Applications of new"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "This section focuses on the basic principles of new."
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is one primary reason why NoSQL databases can scale better than traditional relational databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NoSQL databases utilize a fixed schema."
+      },
+      {
+        "id": "B",
+        "text": "NoSQL databases can easily distribute data across multiple servers."
+      },
+      {
+        "id": "C",
+        "text": "NoSQL databases require complex joins to retrieve related data."
+      },
+      {
+        "id": "D",
+        "text": "NoSQL databases are only designed for small datasets."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Option B is correct because NoSQL databases are designed to distribute data across multiple servers, allowing them to handle large volumes of data and high query loads more efficiently than traditional relational databases, which often struggle with scaling due to their reliance on a fixed schema and complex joins.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_0.13_0",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 0.13,
+    "timestamp_end": 17.489
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is a primary challenge of scaling relational databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintaining complex relationships between data"
+      },
+      {
+        "id": "B",
+        "text": "The ease of data retrieval"
+      },
+      {
+        "id": "C",
+        "text": "The ability to handle unstructured data"
+      },
+      {
+        "id": "D",
+        "text": "The lack of data encryption capabilities"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "A is the correct answer because relational databases are designed to maintain relationships between tables, which requires significant memory and computational resources. This complexity makes it challenging to scale effectively.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_38.07_1",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 38.07,
+    "timestamp_end": 58.03
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is a primary reason why NoSQL databases can scale more effectively than traditional relational databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NoSQL databases eliminate costly relationships between items."
+      },
+      {
+        "id": "B",
+        "text": "NoSQL databases are always more expensive to implement."
+      },
+      {
+        "id": "C",
+        "text": "NoSQL databases require more complex queries."
+      },
+      {
+        "id": "D",
+        "text": "NoSQL databases only support a single data type."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Eliminating costly relationships allows NoSQL databases to manage data more independently, making it easier to scale horizontally without the constraints of relational databases.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_80.29_2",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 80.29,
+    "timestamp_end": 100.06899999999999
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What advantage do NoSQL databases have over traditional databases in terms of scalability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NoSQL databases can distribute workloads across multiple servers."
+      },
+      {
+        "id": "B",
+        "text": "NoSQL databases require less data to function."
+      },
+      {
+        "id": "C",
+        "text": "NoSQL databases are always faster than traditional databases."
+      },
+      {
+        "id": "D",
+        "text": "NoSQL databases can only store simple data types."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "NoSQL databases are designed to scale better by allowing data and workloads to be distributed across multiple servers, which is essential when a single server cannot handle all the data or queries.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_122.42_3",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 122.42,
+    "timestamp_end": 143.16
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What role does the primary key play in a NoSQL database?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It determines the partition where an item is stored."
+      },
+      {
+        "id": "B",
+        "text": "It defines the data type of the item."
+      },
+      {
+        "id": "C",
+        "text": "It encrypts the data for secure storage."
+      },
+      {
+        "id": "D",
+        "text": "It indexes the item for faster search queries."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The primary key in a NoSQL database is crucial because it determines the partition where an item will be stored, allowing the database to efficiently manage and retrieve data. This is enabled through the use of a hash function that converts the primary key into a numerical value.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_163.19_4",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 163.19,
+    "timestamp_end": 182.17
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the primary benefit of adding a secondary server in a database system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows for load balancing and increased capacity."
+      },
+      {
+        "id": "B",
+        "text": "It simplifies the database architecture."
+      },
+      {
+        "id": "C",
+        "text": "It reduces the need for backup."
+      },
+      {
+        "id": "D",
+        "text": "It eliminates the need for security measures."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Adding a secondary server allows the workload to be distributed between two servers, which enhances both storage capacity and performance by preventing any single server from becoming overloaded.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_200.08_5",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 200.08,
+    "timestamp_end": 220.86999999999998
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the significance of having a larger keyspace in NoSQL databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows the database to scale effectively by accommodating more pieces."
+      },
+      {
+        "id": "B",
+        "text": "It limits the number of records that can be stored in the database."
+      },
+      {
+        "id": "C",
+        "text": "It simplifies the database architecture and reduces complexity."
+      },
+      {
+        "id": "D",
+        "text": "It ensures that data retrieval is faster for small datasets."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "A larger keyspace allows NoSQL databases to scale almost without restrictions, enabling them to handle a significantly larger number of records and partitions, which is crucial for performance and efficiency in data management.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_237.92_6",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 237.92,
+    "timestamp_end": 258.73
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is one of the primary advantages of using NoSQL databases over relational databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are more structured and rigid."
+      },
+      {
+        "id": "B",
+        "text": "They allow for schema flexibility, accommodating evolving data structures."
+      },
+      {
+        "id": "C",
+        "text": "They are universally faster for all types of queries."
+      },
+      {
+        "id": "D",
+        "text": "They require complex join operations."
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Option B is correct because NoSQL databases provide schema flexibility, allowing for more adaptability as applications and data structures evolve, unlike traditional relational databases which require a defined schema.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_275.51_7",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 275.51,
+    "timestamp_end": 297.34000000000003
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is a key characteristic of NoSQL databases that can affect data retrieval immediately after writing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are eventually consistent."
+      },
+      {
+        "id": "B",
+        "text": "They are always consistent."
+      },
+      {
+        "id": "C",
+        "text": "They require a fixed schema."
+      },
+      {
+        "id": "D",
+        "text": "They do not support complex queries."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "The correct answer is A because NoSQL databases are eventually consistent, meaning that after writing data, there may be a delay before that data is reflected in subsequent read operations. This contrasts with traditional databases that are often immediately consistent.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_316.5_8",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 316.5,
+    "timestamp_end": 333.51
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the primary reason why reading data from a NoSQL database might not yield the most current information immediately?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data replication takes a few milliseconds."
+      },
+      {
+        "id": "B",
+        "text": "NoSQL databases do not support data consistency."
+      },
+      {
+        "id": "C",
+        "text": "Data is stored in a single location."
+      },
+      {
+        "id": "D",
+        "text": "NoSQL databases rely on complex queries."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because the passage specifically mentions that when data is copied to background replicas, it may take a little time, typically just a few milliseconds, which can lead to reading from a mirror that hasn't been updated yet.",
+    "question_id": "bec8d899-de19-46b1-b05a-41d5f41c875f_351.3_9",
+    "video_id": "bec8d899-de19-46b1-b05a-41d5f41c875f",
+    "timestamp_start": 351.3,
+    "timestamp_end": 369.44899999999996
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the primary purpose of a Certificate of Sponsorship (CoS) in the context of the Skilled Worker Visa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To verify the applicant's identity"
+      },
+      {
+        "id": "B",
+        "text": "To confirm that a job offer has been made and the applicant meets the necessary criteria"
+      },
+      {
+        "id": "C",
+        "text": "To provide proof of residency in the UK"
+      },
+      {
+        "id": "D",
+        "text": "To assess the applicant's financial status"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "Option B is correct because the CoS is a key document that confirms the applicant has a valid job offer and meets the specific requirements for the Skilled Worker Visa.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_5.16_0",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 5.16,
+    "timestamp_end": 17.96
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question_text": "The _____ of Sponsorship is essential for securing a Skilled Worker Visa.",
+    "correct_answer": "Certificate",
+    "explanation": "The answer is 'Certificate' because it directly refers to the Certificate of Sponsorship, which is crucial in the visa application process.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_5.16_1",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 5.16,
+    "timestamp_end": 17.96
+  },
+  {
+    "type": "short_answer",
+    "question_text": "Explain the significance of the Certificate of Sponsorship in the application process for a Skilled Worker Visa.",
+    "sample_answer": "The Certificate of Sponsorship is significant because it serves as proof that an employer has offered a job to the applicant and that the job meets the criteria set by UK immigration authorities.",
+    "key_points": [
+      "It confirms a valid job offer",
+      "It ensures the job meets immigration standards"
+    ],
+    "explanation": "A good answer should mention both the validation of the job offer and the compliance with immigration standards, as these are critical aspects of the CoS's role in the visa application process.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_5.16_2",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 5.16,
+    "timestamp_end": 17.96
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the minimum commitment required to enroll in the service mentioned?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 month"
+      },
+      {
+        "id": "B",
+        "text": "2 months"
+      },
+      {
+        "id": "C",
+        "text": "3 months"
+      },
+      {
+        "id": "D",
+        "text": "4 months"
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The content specifies that a 3-month commitment is required for enrollment.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_110.719_3",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 110.719,
+    "timestamp_end": 125.03899999999999
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question_text": "To succeed in landing your dream job, the service requires hard work and a _____ commitment.",
+    "correct_answer": "3-month",
+    "explanation": "The blank is filled with '3-month' as it describes the specific duration of commitment mentioned.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_110.719_4",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 110.719,
+    "timestamp_end": 125.03899999999999
+  },
+  {
+    "type": "short_answer",
+    "question_text": "Explain the importance of commitment in achieving career goals as outlined in the video.",
+    "sample_answer": "Commitment is essential because it ensures consistent effort and dedication towards achieving career milestones.",
+    "key_points": [
+      "Consistent effort leads to progress",
+      "Dedication helps in overcoming challenges"
+    ],
+    "explanation": "A good answer should highlight how commitment translates into action and supports professional growth.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_110.719_5",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 110.719,
+    "timestamp_end": 125.03899999999999
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the purpose of a sponsor management system for companies in the UK?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hire only British citizens"
+      },
+      {
+        "id": "B",
+        "text": "To manage sponsorship licenses for hiring non-British employees"
+      },
+      {
+        "id": "C",
+        "text": "To provide financial sponsorship to employees"
+      },
+      {
+        "id": "D",
+        "text": "To offer training programs to British workers"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "The sponsor management system is designed to help companies manage their sponsorship licenses so they can hire non-British employees.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_205.2_6",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 205.2,
+    "timestamp_end": 217.84
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question_text": "Companies with a sponsor license can issue _____ to hire foreign workers.",
+    "correct_answer": "COS (Certificate of Sponsorship)",
+    "explanation": "COS is essential for allowing non-British individuals to work in the UK legally.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_205.2_7",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 205.2,
+    "timestamp_end": 217.84
+  },
+  {
+    "type": "short_answer",
+    "question_text": "Explain the significance of obtaining a Certificate of Sponsorship (COS) for hiring non-British workers.",
+    "sample_answer": "A Certificate of Sponsorship is crucial as it legally allows companies to employ foreign workers, ensuring compliance with immigration laws.",
+    "key_points": [
+      "It legitimizes the hiring of non-British employees",
+      "It ensures compliance with UK immigration regulations"
+    ],
+    "explanation": "A good answer should address the legal implications and the operational necessity of a COS for hiring.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_205.2_8",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 205.2,
+    "timestamp_end": 217.84
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What does the status 'assigned' indicate about a certificate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is ready for work"
+      },
+      {
+        "id": "B",
+        "text": "It is in progress and will be given to someone"
+      },
+      {
+        "id": "C",
+        "text": "It is completed and archived"
+      },
+      {
+        "id": "D",
+        "text": "It is not started yet"
+      }
+    ],
+    "correct_answer": "B",
+    "explanation": "'Assigned' indicates that the certificate is currently in progress and will be allocated to someone for further action.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_295.759_9",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 295.759,
+    "timestamp_end": 307.79999999999995
+  },
+  {
+    "type": "fill_in_the_blank",
+    "question_text": "The certificate status can include options such as ready, work in progress, and _____ .",
+    "correct_answer": "assigned",
+    "explanation": "The term 'assigned' is one of the statuses that indicates a certificate is being given to someone for action.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_295.759_10",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 295.759,
+    "timestamp_end": 307.79999999999995
+  },
+  {
+    "type": "short_answer",
+    "question_text": "Why is it important to track the certificate status in a project?",
+    "sample_answer": "Tracking certificate status helps ensure that all tasks are assigned and completed on time, facilitating project management.",
+    "key_points": [
+      "Ensures accountability",
+      "Helps in project management",
+      "Tracks progress"
+    ],
+    "explanation": "A good answer should mention the importance of accountability and how tracking status aids in effective project management and progress monitoring.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_295.759_11",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 295.759,
+    "timestamp_end": 307.79999999999995
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the significance of knowing the expiration date of the cosos assigned by the sponsor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It determines when the project must be completed."
+      },
+      {
+        "id": "B",
+        "text": "It affects the budget allocation for the project."
+      },
+      {
+        "id": "C",
+        "text": "It helps in scheduling meetings with stakeholders."
+      },
+      {
+        "id": "D",
+        "text": "It is irrelevant to the overall project timeline."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Knowing the expiration date is crucial because it determines the deadline for project completion.",
+    "question_id": "6ad48044-1203-4b2d-aca5-31482d3569f8_390.96_12",
+    "video_id": "6ad48044-1203-4b2d-aca5-31482d3569f8",
+    "timestamp_start": 390.96,
+    "timestamp_end": 402.759
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What year did the development of PostgreSQL begin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1986"
+      },
+      {
+        "id": "B",
+        "text": "1995"
+      },
+      {
+        "id": "C",
+        "text": "2000"
+      },
+      {
+        "id": "D",
+        "text": "2010"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "1986 is the correct answer because that is when PostgreSQL's development started at UC Berkeley under Michael Stonebreaker.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_0.02_0",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 0.02,
+    "timestamp_end": 13.620000000000001
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What distinguishes PostgreSQL from traditional relational databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is an object-relational database."
+      },
+      {
+        "id": "B",
+        "text": "It only supports unstructured data."
+      },
+      {
+        "id": "C",
+        "text": "It does not use SQL for data manipulation."
+      },
+      {
+        "id": "D",
+        "text": "It stores data exclusively in JSON format."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "PostgreSQL is distinguished from traditional relational databases by its object-relational capabilities, allowing it to handle more complex data types and relationships than standard relational databases.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_11.34_1",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 11.34,
+    "timestamp_end": 22.619
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "Which of the following features allows a database to define custom data types that can inherit properties from other data types?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polymorphism"
+      },
+      {
+        "id": "B",
+        "text": "Normalization"
+      },
+      {
+        "id": "C",
+        "text": "Data Redundancy"
+      },
+      {
+        "id": "D",
+        "text": "Indexing"
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Polymorphism allows different data types to be treated as instances of the same type through a common interface, enabling the definition of custom data types that can inherit properties from other data types.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_20.76_2",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 20.76,
+    "timestamp_end": 32.16
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the primary benefit of using multiversion concurrency control in database transactions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows each transaction to operate on a consistent snapshot of the database."
+      },
+      {
+        "id": "B",
+        "text": "It eliminates the need for transactions to be ACID compliant."
+      },
+      {
+        "id": "C",
+        "text": "It guarantees that all transactions will run at the same time."
+      },
+      {
+        "id": "D",
+        "text": "It reduces the complexity of SQL queries."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because multiversion concurrency control provides each transaction with a snapshot of the database, allowing for concurrent transactions without conflict, thus maintaining data consistency.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_29.88_3",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 29.88,
+    "timestamp_end": 42.0
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is a key benefit of using stored procedures in database development?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They allow for the reuse of queries."
+      },
+      {
+        "id": "B",
+        "text": "They eliminate the need for database backups."
+      },
+      {
+        "id": "C",
+        "text": "They automatically optimize all queries."
+      },
+      {
+        "id": "D",
+        "text": "They prevent all types of data corruption."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Stored procedures allow developers to encapsulate queries for reuse, which enhances productivity and maintains consistency in database operations.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_40.2_4",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 40.2,
+    "timestamp_end": 52.68
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the primary benefit of using extensions like PostGIS in Python applications?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They allow for enhanced geospatial data handling."
+      },
+      {
+        "id": "B",
+        "text": "They improve the performance of Python's standard libraries."
+      },
+      {
+        "id": "C",
+        "text": "They simplify the syntax of Python code."
+      },
+      {
+        "id": "D",
+        "text": "They provide a graphical interface for database management."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "PostGIS extends the capabilities of PostgreSQL to handle geospatial data, which is essential for applications like Uber that rely on location-based services.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_50.7_5",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 50.7,
+    "timestamp_end": 63.899
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the primary benefit of using a Cloud database like Neon for AI chatbots?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows for seamless long-term memory integration."
+      },
+      {
+        "id": "B",
+        "text": "It requires complex installation processes."
+      },
+      {
+        "id": "C",
+        "text": "It limits the amount of data that can be stored."
+      },
+      {
+        "id": "D",
+        "text": "It is more expensive than local databases."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because using a Cloud database like Neon facilitates the integration of long-term memory in AI chatbots, which is essential for improving their performance and user interaction.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_61.86_6",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 61.86,
+    "timestamp_end": 73.619
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is the primary purpose of the SQL Editor mentioned in the content?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To create new databases and manage advanced features."
+      },
+      {
+        "id": "B",
+        "text": "To visualize data in graphical formats only."
+      },
+      {
+        "id": "C",
+        "text": "To run SQL queries and interact with databases."
+      },
+      {
+        "id": "D",
+        "text": "To automatically scale out database servers."
+      }
+    ],
+    "correct_answer": "C",
+    "explanation": "The SQL Editor is designed for running SQL queries and interacting with databases, allowing users to create, modify, and manage data effectively.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_71.28_7",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 71.28,
+    "timestamp_end": 81.72
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is a primary benefit of using an object-relational database compared to a traditional relational database?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows for the storage of complex data types."
+      },
+      {
+        "id": "B",
+        "text": "It requires less memory than traditional databases."
+      },
+      {
+        "id": "C",
+        "text": "It is easier to manage than a traditional database."
+      },
+      {
+        "id": "D",
+        "text": "It does not support SQL queries."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "Option A is correct because object-relational databases can handle complex data types such as images, audio, and user-defined types, which traditional relational databases are not designed to manage effectively.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_80.22_8",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 80.22,
+    "timestamp_end": 90.65899999999999
+  },
+  {
+    "type": "multiple_choice",
+    "question_text": "What is one of the advantages of using PostgreSQL for data modeling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It allows for the creation of custom data types."
+      },
+      {
+        "id": "B",
+        "text": "It only supports basic data types."
+      },
+      {
+        "id": "C",
+        "text": "It requires a complex setup for data types."
+      },
+      {
+        "id": "D",
+        "text": "It does not support exotic data modeling."
+      }
+    ],
+    "correct_answer": "A",
+    "explanation": "A is correct because PostgreSQL allows users to define custom data types, making it flexible for various data modeling needs, including exotic data structures.",
+    "question_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f_88.979_9",
+    "video_id": "bff359a0-7a72-49f2-97c3-cdfd90fbec1f",
+    "timestamp_start": 88.979,
+    "timestamp_end": 99.65899999999999
+  }
+]
